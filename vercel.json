@@ -3,6 +3,5 @@
     "command": "npm install && npm run build",
     "outputDirectory": "dist"
   },
-  "public": true,
   "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
 }
